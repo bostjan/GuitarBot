@@ -1,0 +1,32 @@
+{
+  "name": "guitarbot",
+  "version": "2.0.0",
+  "description": "Telegram bot to search and send guitar chords.",
+  "main": "server.js",
+  "dependencies": {
+    "array-insert": "^2.0.0",
+    "async": "^2.0.0-rc.6",
+    "cheerio": "^0.20.0",
+    "diacritics": "^1.2.3",
+    "fs": "0.0.2",
+    "http": "^0.0.0",
+    "jsonfile": "^2.3.1",
+    "mkdirp": "^0.5.1",
+    "pdfkit": "^0.7.2",
+    "request": "^2.72.0",
+    "telegram-bot-api": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "guitar",
+    "bot",
+    "guitarbot",
+    "telegram"
+  ],
+  "author": "dariodf",
+  "license": "ISC"
+}
