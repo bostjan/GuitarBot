@@ -42,9 +42,9 @@ var api = new telegram({
 
 api.on('update', function(message)
 {
-	// Generic update object
-	// Subscribe on it in case if you want to handle all possible
-	// event types in one callback
+    // Generic update object
+    // Subscribe on it in case if you want to handle all possible
+    // event types in one callback
     console.log(message);
 });
 
